@@ -4,9 +4,8 @@
     /* Attempt MySQL server connection. Assuming you are running MySQL
 
     server with default setting (user 'root' with no password) */
-    Route::post('/index', function(){
-    return view('index');
-});
+ 
+
 
     $link = mysqli_connect("db4free.net", "jfh_root", "jfh123", "jfh_details");
 
@@ -24,11 +23,11 @@
 
     // Escape user inputs for security
 
-    $name = mysqli_real_escape_string($link, $_POST['name']);
+    $name = mysqli_real_escape_string($link, $_GET['name']);
 
-    $email = mysqli_real_escape_string($link, $_POST['email']);
+    $email = mysqli_real_escape_string($link, $_GET['email']);
 
-    $phone = mysqli_real_escape_string($link, $_POST['phone']);
+    $phone = mysqli_real_escape_string($link, $_GET['phone']);
 
      
 
