@@ -1,0 +1,237 @@
+ <html>
+<style>
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 600pc
+    align:centre;
+    padding: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+}
+body{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+div{
+	display:block;
+}
+
+#wrapper
+{
+	width:100%;
+	height:100%;
+}
+
+#div0
+{
+	width:100%;
+	height:50%;
+}
+#div1
+{
+	float:right;
+	width:30%;
+	height:50%;
+}
+
+#div2 { 
+
+	float:left;
+	height:60%;
+	width:70%;
+
+&#8203;
+
+}
+
+
+#img1 {
+
+position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+}
+
+#img2
+{
+	position:absolute;
+	left:0;
+	
+}
+
+p {
+
+ 
+	float:left;
+	height:40%;
+	width:65%;
+	position: absolute;
+	color: black;
+	text-align: center;
+	font-size:14px;
+  
+
+}
+.cover {
+  object-fit: cover;
+  width: 50px;
+  height: 100px;
+}
+
+.left{
+
+left:0;
+
+}
+
+form {
+    position:relative;
+    right:-40px;
+    width:250px;
+    height:380px;
+    background-color:#EBDDE2;
+    padding:10px;
+    padding-right:25px;
+    vertical-align:bottom;
+    
+}
+
+.btn-style{
+	border : solid 0px #fff700;
+	border-radius : 15px;
+	moz-border-radius : 15px;
+	font-size : 15px;
+	font-weight:bold;
+	color : #050505;
+	padding : 10px 20px;
+	background : #ffd500;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd500), color-stop(100%,#ff8c00));
+	background : -moz-linear-gradient(top, #ffd500 0%, #ff8c00 100%);
+	background : -webkit-linear-gradient(top, #ffd500 0%, #ff8c00 100%);
+	background : -o-linear-gradient(top, #ffd500 0%, #ff8c00 100%);
+	background : -ms-linear-gradient(top, #ffd500 0%, #ff8c00 100%);
+	background : linear-gradient(top, #ffd500 0%, #ff8c00 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd500', endColorstr='#ff8c00',GradientType=0 );
+
+
+}
+.under
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+}
+.over
+{
+position:absolute;
+left:40px;
+top:10px;
+z-index:-1;
+}
+
+
+</style>
+<script>
+function validateform()
+{
+	var name=document.getElementById("name").value;
+	var email=document.getElementById("email").value;
+	var text =  /^[A-Za-z]/;
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if(name==''||email=='')
+	{
+		alert('Fill the required fields');
+		return false;
+	}
+	else if (!text.test(name))
+	{
+		alert('Please check the name you have entered');
+		return false;
+	}
+	else if (!emailReg.test(email))
+	{
+		alert('Please enter a valid email id');
+		return false;
+	}
+	else
+	{
+		
+		window.location="http://www.jobsforher.com/uploads/ebook/restarter-journeys-vol-1.pdf";
+	}
+}
+</script>
+
+
+
+
+
+
+
+
+<body>
+<div id="wrapper">
+<div id="div0">
+<table align="top">
+<td>
+<img src="http://jfhphp.comuf.com/Top.jpg" class="under cover" style="width:102.2%;height:50.5%;" vertical-align="bottom"/>
+<img src="http://jfhphp.comuf.com/Logo.png" width="250" height="70" class="over" align="bottom"/> 
+</td>
+</table>
+</div>
+
+ 
+<table align="left">
+<td>
+<img id ="img2" class="cover" src="http://jfhphp.comuf.com/Bottom.jpg" style="width:83%;height:400px; opacity: 0.1;padding=50px;" align="bottom"> 
+
+<p> In the first year of JobsForHer's existence,we have managed to fill positions in companies across the country with women who have returned to work after a career break.Now,we're ready to upgrade our portal and escalate the way we work. And, we have women to thank for the journey this far.<br><br>
+
+Women who took a chance with us and trusted us to help them return to work. Women who saw us, allied with us, and jumped the cliff's egde with us, into a whole new world and a whole new way of affirming their lives with second careers.<br><br>
+
+We salute these women and we have been acknowledging their strengths along our journey together by penning their personal career-restart stories on our blog page, as and when place them, or hear of them.<br><br>
+To read their stories of resilience, determination, and courage in the face of dwindling confidence, download:<br><br>
+
+<b>		The Way Back to the Way Forward:Restarter Journeys </b><br><br>
+To share YOUR Restarter Journey with us, email kaajal.ahuja@jobsforher.com. It could inspire so many more women to stand up and stand their ground for the careers they deserve to return to after their break.<br><br>
+
+And if you're ready to GET BACK TO WORK, browse JobsForHer's multitude of full-time, part-time, work-from-home, freelance, volunteer and returnee.<br><br>
+
+
+
+</p>
+</td>
+</table>
+<table align="right">
+<td align="center">
+ <form name="myForm" method="post" align = "center" action="https://googledrive.com/host/0BwYmSnOf3x0wZThEU29JTGgxTFU" onsubmit="return validateform()">
+    	
+		First name:<br>
+	<input id="name" align="left" type="text" name="name"><br><br>
+	Email:<br>
+	<input id="email" align="left" type="email" name="email"<br><br><br>
+	
+	Number:<br>
+
+        <input id="phone" align="left" type="text" name="phone"><br>
+        
+ <br><input name="submit" type="submit" class="btn-style" value="Submit & Download"><br>
+
+	</form>
+</td>
+</table>
+
+
+</div>
+</body>
+<html>
