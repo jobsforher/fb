@@ -23,11 +23,11 @@
 
     // Escape user inputs for security
 
-    $name = mysqli_real_escape_string($link, $_GET['name']);
+    $name = mysqli_real_escape_string($link, $_POST['name']);
 
-    $email = mysqli_real_escape_string($link, $_GET['email']);
+    $email = mysqli_real_escape_string($link, $_POST['email']);
 
-    $phone = mysqli_real_escape_string($link, $_GET['phone']);
+    $phone = mysqli_real_escape_string($link, $_POST['phone']);
 
      
 
