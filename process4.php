@@ -4,6 +4,9 @@
     /* Attempt MySQL server connection. Assuming you are running MySQL
 
     server with default setting (user 'root' with no password) */
+    Route::post('/index', function(){
+    return view('index');
+});
 
     $link = mysqli_connect("db4free.net", "jfh_root", "jfh123", "jfh_details");
 
